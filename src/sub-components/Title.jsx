@@ -1,9 +1,15 @@
 
 const Title = () => (
-    <div>
-        <h1 className="font-nanum-myeongjo font-light text-[70px] text-balance text-center leading-[125%]">
-            Miguel Alberto es un desarrollador web ubicado en Los cabos, Mexico
-        </h1>
+    <div className=" lg:block hidden font-canela-deck text-[85px] text-center leading-[125%]">
+            <div className="text-nowrap">
+                miguel alberto es un
+            </div>
+            <div className="text-nowrap">
+                desarrollador web ubicado
+            </div>
+            <div className="text-nowrap">
+                en los cabos, mexico
+            </div>
     </div>
 )
 

@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+@font-face {
+    font-family: 'Canela Deck Thin Trial';
+    src: url('./fonts/CanelaDeck-Thin-Trial.otf') format('opentype');
+}
+
 body {
     background-color: #fffbf6;
     font-size: 18px;
