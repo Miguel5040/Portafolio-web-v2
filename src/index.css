@@ -11,17 +11,19 @@
 body {
     background-color: #fffbf6;
     font-size: 18px;
-    display: flex;
-    justify-content: center;
+    min-height: 100vh;
 
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 300;   /*  300 o 400 por probar */
     font-style: normal;
     color: #333;
+
+    margin-bottom: 50px;  /* Estilo temporal BORRAR ELIMINAR */
 }
 
 #root {
+    height: 100%;
     display: flex;
-    justify-content: center;
-    max-width: 1120px;
+    flex-direction: column;
+    align-items: center;
 }

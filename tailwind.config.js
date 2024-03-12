@@ -7,11 +7,13 @@ export default {
   theme: {
     extend: {},
     screens: {
-      // 'sm': '640px',
+      'sm': '480px',
 
       'md': '768px',
 
-      'lg': '992px'
+      'lg': '992px',
+
+      'xl': '1280px'
     },
     fontFamily: {
       'inter': ['"Inter"'],
