@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 const Card = () => (
     <article className="grid gap-[16px]">
-        <motion.div whileHover={{ boxShadow: '0 0 20px 4px rgba(51, 51, 51, .2)' }} className="overflow-hidden">
+        <motion.div whileHover={{ boxShadow: '0 0 20px 4px rgba(51, 51, 51, .1)', transition: {duration: 0} }} className="overflow-hidden">
             <a href="">
                 <motion.img 
                 whileHover={{ scale: 1.04 }}

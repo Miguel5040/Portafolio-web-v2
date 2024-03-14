@@ -5,7 +5,7 @@ const About = () => (
     <Container className={"flex flex-col lg:flex-row lg:gap-0 gap-6 items-center"}>
         <div className="lg:w-1/3 flex justify-start items-center">
             <div className="max-w-[250px]">
-                <img className="aspect-square object-cover border-2 border-[#333] p-2" src="./images/foto.jpg" alt="imagen de perfil" />
+                <img className="aspect-square object-cover border-2 border-[#333] p-2 shadow-2xl" src="./images/foto.jpg" alt="imagen de perfil" />
             </div>
         </div>
         
