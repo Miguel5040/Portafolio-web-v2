@@ -2,7 +2,7 @@ import Container from "../sub-components/Container"
 import Card from "../sub-components/Card"
 
 const Education = () => (
-    <Container className={"flex flex-col gap-[12px]"}>
+    <Container id={"education"} className={"flex flex-col gap-[12px]"}>
         <div>
             <h2 className="font-canela-deck text-[32px]">Educación:</h2>
         </div>

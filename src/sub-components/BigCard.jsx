@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 const BigCard = () => (
     <article className="grid gap-[16px]">
-        <motion.div whileHover={{ boxShadow: '0 0 20px 4px rgba(51, 51, 51, .1)', transition: {duration: 0} }} className="overflow-hidden">
+        <motion.div whileHover={{ boxShadow: '0 0 20px 4px rgba(51, 51, 51, .1)', transition: { duration: 0 } }} className="overflow-hidden">
             <a href="">
                 <motion.img
                     whileHover={{ scale: 1.04 }}
@@ -10,9 +10,11 @@ const BigCard = () => (
             </a>
         </motion.div>
         <div className="flex flex-col gap-[12px]">
-            <div className="font-noto-sans text-[24px] font-normal leading-[32px]">
-                custom fields & kanban view on air
-            </div>
+            <a href="">
+                <div className="font-noto-sans text-[24px] font-normal leading-[32px] hover:underline">
+                    custom fields & kanban view on air
+                </div>
+            </a>
             <div>
                 Enabling teams to efficiently organize and track creative assets
             </div>

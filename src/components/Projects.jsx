@@ -2,7 +2,7 @@ import Container from "../sub-components/Container"
 import BigCard from "../sub-components/BigCard"
 
 const Projects = () => (
-    <Container className={"flex flex-col gap-[12px]"}>
+    <Container id={"projects"} className={"flex flex-col gap-[12px]"}>
         <div>
             <h2 className="font-canela-deck text-[32px]">Proyectos:</h2>
         </div>
