@@ -1,7 +1,7 @@
 import Container from "../sub-components/Container"
 
 const Footer = () => (
-    <Container className={"px-[40px] py-[32px]"}>
+    <Container className={"px-[40px] py-[32px] z-[100]"}>
         <footer className="flex flex-col gap-2 items-center">
             <div className="flex gap-3 text-[14px] font-normal">
                 <div>

@@ -5,6 +5,7 @@ import Education from "./components/Education"
 import Projects from "./components/Projects"
 import Tech from "./components/Tech"
 import Footer from "./components/Footer"
+import Fade from "./sub-components/Fade"
 
 const App = () => {
 
@@ -16,6 +17,7 @@ const App = () => {
             <Projects />
             <About />
             <Footer />
+            <Fade />
         </>
     )
 }

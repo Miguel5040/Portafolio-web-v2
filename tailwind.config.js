@@ -19,7 +19,8 @@ export default {
       'inter': ['"Inter"'],
       'noto-sans': ['"Noto Sans JP"'],
       'nanum-myeongjo': ['"Nanum Myeongjo"'],
-      'canela-deck': ['"Canela Deck Thin Trial"']
+      'canela-deck': ['"Canela Deck Thin Trial"'],
+      'jakarta': ['"Plus Jakarta Sans Medium"']
     },
   },
   plugins: [],
