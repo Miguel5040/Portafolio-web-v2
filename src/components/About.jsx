@@ -7,7 +7,7 @@ const About = () => (
             <div className="relative max-w-[250px]">
                 <img className="aspect-square object-cover" src="./images/foto.jpg" alt="imagen de perfil" />
                 <div className="absolute bg-[#aeaeae] blur-[2px] w-full h-full right-[-10px] top-[-10px] sm:right-[-15px] sm:top-[-15px] z-[-1]"></div>
-                <img className="rounded-full w-[30px] xs:w-[50px] md:w-[70px] absolute right-[-10px] top-[-10px] sm:right-[-15px] sm:top-[-15px]" src="./images/sticker.png"/>
+                <img className="rounded-full w-[30px] xs:w-[50px] md:w-[70px] absolute right-[-10px] top-[-10px] sm:right-[-15px] sm:top-[-15px]" src="./images/sticker.png" />
             </div>
             <div className="text-[18px] xs:text-[25px] md:text-[32px] mb-6 font-canela-deck">
                 <p className="text-nowrap text-[22px] xs:text-[30px] md:text-[42px]">Miguel Alberto</p>
@@ -15,8 +15,8 @@ const About = () => (
             </div>
         </div>
 
-        <img className="hidden xl:block absolute top-[220px] right-[120px] rotate-[220deg] scale-x-[1] w-[100px]" src="./images/arrow.png"/>
-        
+        <img className="hidden xl:block absolute top-[220px] right-[120px] rotate-[220deg] scale-x-[1] w-[100px]" src="./images/arrow.png" />
+
         <article>
             <div className="xs:text-[25px] text-[20px] text-pretty font-jakarta">
                 <p className="mb-[30px]">

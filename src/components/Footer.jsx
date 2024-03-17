@@ -3,7 +3,7 @@ import Container from "../sub-components/Container"
 const Footer = () => (
     <Container className={"px-[40px] py-[32px] z-[100]"}>
         <footer className="flex flex-col gap-2 items-center">
-            <div className="flex gap-3 text-[14px] font-normal">
+            <div className="flex gap-3 text-[12px] sm:text-[14px] font-normal items-center justify-center">
                 <div>
                     miguel alberto
                 </div>
@@ -26,7 +26,7 @@ const Footer = () => (
                     <a className="hover:underline" href="">email</a>
                 </div>
             </div>
-            <div className="text-[13px]">
+            <div className="text-[10px] sm:text-[13px]">
                 website built with webflow, figma, procreate. set in söhne buch & kraftig, canela deck light.
             </div>
         </footer>
