@@ -45,11 +45,11 @@ const Navbar = () => {
                 </button>
             </div>
 
-            <div className="absolute top-[100%] left-0 right-0 overflow-hidden lg:hidden block">
+            <div className="absolute top-[100%] left-0 right-0 lg:hidden block">
                 <motion.div
                 // variants={variants}
                 // animate={menu === "block" ? "open" : "closed"} 
-                // transition={{duration: 7}}
+                // transition={{duration: 2}}
                 className={`flex flex-col w-full gap-[25px] py-[20px] bg-[#fffbf6] font-noto-sans font-normal text-[16px] items-center border-b-[1px] border-x-[1px] border-[rgba(51, 51, 51, .2)] ${menu}`}>
                     <a className='hover:font-medium cursor-pointer' onClick={() => scrollSection("inicio")}>Inicio</a>
                     <a className='hover:font-medium cursor-pointer' onClick={() => scrollSection("education")}>Educación</a>
