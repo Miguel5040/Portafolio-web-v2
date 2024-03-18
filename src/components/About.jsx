@@ -5,7 +5,7 @@ const About = () => (
     <Container id={"about"} className={"flex flex-col relative lg:flex-col lg:gap-8 gap-6 items-center"}>
         <div className="flex justify-start items-end gap-8">
             <div className="relative max-w-[250px]">
-                <img className="aspect-square object-cover" src="./images/foto.jpg" alt="imagen de perfil" />
+                <img className="aspect-square object-cover" src="./images/imagen-perfil-linkedin-square.png" alt="imagen de perfil" />
                 <div className="absolute bg-[#aeaeae] blur-[2px] w-full h-full right-[-10px] top-[-10px] sm:right-[-15px] sm:top-[-15px] z-[-1]"></div>
                 <img className="rounded-full w-[30px] xs:w-[50px] md:w-[70px] absolute right-[-10px] top-[-10px] sm:right-[-15px] sm:top-[-15px]" src="./images/sticker.png" />
             </div>

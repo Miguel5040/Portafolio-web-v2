@@ -9,24 +9,24 @@ const Projects = () => (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[24px]">
             <BigCard
                 link={"https://github.com/Miguel5040/Proyecto-Pet-"}
-                file={"imagen-ejemplo2.webp"}
+                file={"petplus2.png"}
                 name={"Pet+"}
                 description={"Aplicacion para llevar un control total sobre tus mascotas"}
                 tech={"REACT - PYTHON - HTML - CSS - JAVASCRIPT"}
             />
             <BigCard
-                link={"https://github.com/Miguel5040/Proyecto-Pet-"}
-                file={"imagen-ejemplo2.webp"}
-                name={"Pet+"}
-                description={"Aplicacion para llevar un control total sobre tus mascotas"}
-                tech={"REACT - PYTHON - HTML - CSS - JAVASCRIPT"}
+                link={""}
+                file={"recetas.webp"}
+                name={"Recetas con IA"}
+                description={"Aplicacion para generar y recomendar recetas con inteligencia artificial"}
+                tech={"REACT - PYTHON - HTML - CSS - NODE.JS"}
             />
             <BigCard
-                link={"https://github.com/Miguel5040/Proyecto-Pet-"}
-                file={"imagen-ejemplo2.webp"}
-                name={"Pet+"}
-                description={"Aplicacion para llevar un control total sobre tus mascotas"}
-                tech={"REACT - PYTHON - HTML - CSS - JAVASCRIPT"}
+                link={""}
+                file={"imagen-ejemplo.png"}
+                name={"Desayunos en 5 minutos"}
+                description={"Aplicacion de recetas de desayunos faciles de preparar"}
+                tech={"REACT - PYTHON - HTML - CSS - NODE.JS"}
             />
         </div>
     </Container>

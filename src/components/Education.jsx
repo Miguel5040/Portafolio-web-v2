@@ -15,18 +15,18 @@ const Education = () => (
                 date={"SEP 2023 - FEB 2024"}
             />
             <Card
-                file={"4geeks-academy.png"}
-                link={"https://certificate.4geeks.com/31d61db754308ddec0deb4eb329eab8f07dcd948"}
-                alt={"4geeks academy logo"}
-                name={"4Geeks Academy bootcamp desarrollo web full stack"}
-                date={"SEP 2023 - FEB 2024"}
+                file={"google.jpg"}
+                link={""}
+                alt={"google logo"}
+                name={"Google Activate Curso programacion font end"}
+                date={"SEP 2022 - JUN 2030"}
             />
             <Card
-                file={"4geeks-academy.png"}
-                link={"https://certificate.4geeks.com/31d61db754308ddec0deb4eb329eab8f07dcd948"}
-                alt={"4geeks academy logo"}
-                name={"4Geeks Academy bootcamp desarrollo web full stack"}
-                date={"SEP 2023 - FEB 2024"}
+                file={"mit.png"}
+                link={""}
+                alt={"Universidad MIT"}
+                name={"Computer Science University"}
+                date={"SEP 2026 - OCT 2080"}
             />
         </div>
     </Container>
