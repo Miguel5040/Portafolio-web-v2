@@ -23,7 +23,7 @@ const About = () => (
                     Apasionado por crear experiencias digitales únicas y funcionales. Mi enfoque se centra en la <strong className="text-[#fc6563]">innovación y la creatividad</strong> para superar desafíos y ofrecer resultados excepcionales.
                 </p>
                 <p>
-                    Persona <strong className="text-[#fc6563]">trabajadora y dedicada</strong>, si estás buscando a alguien que aporte pasión y determinación a tu equipo, ¡aquí estoy yo!. <a className="hover:text-[#777] underline" href="./documents/miguel-alberto-cv.pdf" target="_blank">Mira mi curriculum aqui.</a>
+                    Persona <strong className="text-[#fc6563]">trabajadora y dedicada</strong>, si estás buscando a alguien que aporte pasión y determinación a tu equipo, ¡aquí estoy yo! <a className="hover:text-[#777] underline" href="./documents/miguel-alberto-cv.pdf" target="_blank">Mira mi curriculum aquí.</a>
                 </p>
             </div>
         </article>

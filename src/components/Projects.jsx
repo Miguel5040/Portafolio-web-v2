@@ -6,27 +6,34 @@ const Projects = () => (
         <div>
             <h2 className="font-canela-deck text-[32px]">Proyectos:</h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[24px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[45px]">
             <BigCard
                 link={"https://github.com/Miguel5040/Proyecto-Pet-"}
-                file={"petplus2.png"}
+                file={"petplus.png"}
                 name={"Pet+"}
-                description={"Aplicacion para llevar un control total sobre tus mascotas"}
-                tech={"REACT - PYTHON - HTML - CSS - JAVASCRIPT"}
+                description={"Aplicación para llevar un control total sobre tus mascotas"}
+                tech={"REACT - PYTHON - HTML - CSS - JAVASCRIPT - FLASK - SQL ALCHEMY"}
             />
             <BigCard
-                link={""}
-                file={"recetas.webp"}
-                name={"Recetas con IA"}
-                description={"Aplicacion para generar y recomendar recetas con inteligencia artificial"}
-                tech={"REACT - PYTHON - HTML - CSS - NODE.JS"}
+                link={"https://github.com/Miguel5040/Miguel5040-contact-list"}
+                file={"contact-list.png"}
+                name={"Contact List App"}
+                description={"Aplicación para registrar información de contactos"}
+                tech={"REACT - HTML - CSS - JAVASCRIPT"}
             />
             <BigCard
-                link={""}
-                file={"imagen-ejemplo.png"}
-                name={"Desayunos en 5 minutos"}
-                description={"Aplicacion de recetas de desayunos faciles de preparar"}
-                tech={"REACT - PYTHON - HTML - CSS - NODE.JS"}
+                link={"https://github.com/Miguel5040/RESTful-API-Starwars"}
+                file={"api-rest.png"}
+                name={"RESTful API Star Wars"}
+                description={"API rest de Star Wars para crear usuarios, agregar favoritos, solicitar información"}
+                tech={"PYTHON - FLASK - SQL ALCHEMY - POSTGRE_SQL"}
+            />
+            <BigCard
+                link={"https://github.com/Miguel5040/Proyecto-JWT-Auth"}
+                file={"jwt.png"}
+                name={"Modelo de registro de aplicación"}
+                description={"Modelo de aplicación Backend para realizar registros de usuarios y autenticarlos con JWT y creación de Tokens"}
+                tech={"PYTHON - FLASK - SQL ALCHEMY - POSTGRE_SQL - JWT"}
             />
         </div>
     </Container>
