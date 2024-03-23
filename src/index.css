@@ -13,6 +13,10 @@
     src: url('./fonts/PlusJakartaSans-Medium.ttf') format('opentype');
 }
 
+html {
+    overflow-x: hidden;
+}
+
 
 body {
     font-size: 18px;
@@ -35,6 +39,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 
 
