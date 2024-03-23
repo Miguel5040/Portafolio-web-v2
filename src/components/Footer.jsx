@@ -3,8 +3,8 @@ import Container from "../sub-components/Container"
 const Footer = () => (
     <Container className={"px-[40px] py-[32px] z-[100]"}>
         <footer className="flex flex-col gap-2 items-center">
-            <div className="flex gap-3 text-[12px] sm:text-[14px] font-normal items-center justify-center">
-                <div>
+            <div className="flex gap-3 flex-wrap xs:flex-nowrap text-[12px] sm:text-[14px] font-normal items-center justify-center">
+                <div className="text-nowrap">
                     miguel-ordonez@outlook.com
                 </div>
                 <span className="flex items-center">
