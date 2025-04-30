@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 const BigCard = (props) => (
     <article className="gap-[16px] flex flex-col">
-        <motion.div whileHover={{ boxShadow: '0 0 20px 4px rgba(51, 51, 51, .3)', transition: { duration: 0 } }} className="overflow-hidden">
+        <motion.div whileHover={{ boxShadow: '0 0 20px 4px rgba(51, 51, 51, .2)', transition: { duration: 0.3 } }} className="overflow-hidden">
             <a href={props.link} target="_blank">
                 <motion.img
                     whileHover={{ scale: 1.04 }}

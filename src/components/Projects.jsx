@@ -8,25 +8,25 @@ const Projects = () => (
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[45px]">
             <BigCard
+                link={"https://hidroequipos.vercel.app/"}
+                file={"pagina-hidro.png"}
+                name={"Pagina web Hidroequipos"}
+                description={"Pagina web para la constructora y mantenimiento de albercas de Los Cabos Hidroequipos"}
+                tech={"REACT - HTML - CSS - JAVASCRIPT - MYSQL - EXPRESS"}
+            />
+            <BigCard
+                link={""}
+                file={"system-ilustration.png"}
+                name={"Sistema para exportacion de catalogo de productos"}
+                description={"Sistema para extraer informacion de una base de datos"}
+                tech={"JAVASCRIPT - EXPRESS - SQL SERVER"}
+            />
+            <BigCard
                 link={"https://github.com/Miguel5040/Proyecto-Pet-"}
                 file={"petplus.png"}
                 name={"Pet+"}
                 description={"Aplicación para llevar un control total sobre tus mascotas"}
                 tech={"REACT - PYTHON - HTML - CSS - JAVASCRIPT - FLASK - SQL ALCHEMY"}
-            />
-            <BigCard
-                link={"https://github.com/Miguel5040/Miguel5040-contact-list"}
-                file={"contact-list.png"}
-                name={"Contact List App"}
-                description={"Aplicación para registrar información de contactos"}
-                tech={"REACT - HTML - CSS - JAVASCRIPT"}
-            />
-            <BigCard
-                link={"https://github.com/Miguel5040/RESTful-API-Starwars"}
-                file={"api-rest.png"}
-                name={"RESTful API Star Wars"}
-                description={"API rest de Star Wars para crear usuarios, agregar favoritos, solicitar información"}
-                tech={"PYTHON - FLASK - SQL ALCHEMY - POSTGRE_SQL"}
             />
             <BigCard
                 link={"https://github.com/Miguel5040/Proyecto-JWT-Auth"}

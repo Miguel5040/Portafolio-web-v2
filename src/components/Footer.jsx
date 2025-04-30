@@ -21,7 +21,7 @@ const Footer = () => (
                 </div>
             </div>
             <div className="text-[10px] sm:text-[13px]">
-                Página web diseñada con React, tailwind y vite. Portafolio profesional. Diseño inspirado en Ivette Felix Uy
+                Página web diseñada con React, Tailwind, Vite y Framer motion. Portafolio profesional. Diseño inspirado en Ivette Felix Uy
             </div>
         </footer>
     </Container>

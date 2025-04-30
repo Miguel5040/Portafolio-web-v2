@@ -4,7 +4,7 @@ import Card from "../sub-components/Card"
 const Education = () => (
     <Container id={"education"} className={"flex flex-col gap-[12px]"}>
         <div>
-            <h2 className="font-canela-deck text-[32px]">Educación:</h2>
+            <h2 className="font-canela-deck text-[32px]">Educación y Experiencia:</h2>
         </div>
         <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[24px]">
             <Card
@@ -13,6 +13,14 @@ const Education = () => (
                 alt={"4geeks academy logo"}
                 name={"4Geeks Academy bootcamp desarrollo web full stack"}
                 date={"SEP 2023 - FEB 2024"}
+            />
+
+            <Card
+                file={"logo-hidroequipos.png"}
+                link={"https://www.facebook.com/hidropools"}
+                alt={"Hidroequipos Logo"}
+                name={"Desarrollador de Software"}
+                date={"MAY 2024 - Actualidad"}
             />
         </div>
     </Container>
