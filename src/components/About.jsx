@@ -20,10 +20,10 @@ const About = () => (
         <article>
             <div className="xs:text-[25px] text-[20px] text-pretty font-jakarta">
                 <p className="mb-[30px]">
-                    Apasionado por crear experiencias digitales únicas y funcionales. Mi enfoque se centra en la <strong className="text-[#fc6563]">innovación y la creatividad</strong> para superar desafíos y ofrecer resultados excepcionales.
+                Profesional del desarrollo de software con <strong className="text-[#fc6563]">experiencia comprobada</strong> en la creación de soluciones digitales eficientes, automatización de procesos y mantenimiento de sistemas y plataformas web.
                 </p>
                 <p>
-                    Persona <strong className="text-[#fc6563]">trabajadora y dedicada</strong>, si estás buscando a alguien que aporte pasión y determinación a tu equipo, ¡aquí estoy yo! <a className="hover:text-[#777] underline" href="./documents/miguel-alberto-cv.pdf" target="_blank">Mira mi curriculum aquí.</a>
+                    Persona <strong className="text-[#fc6563]">trabajadora y dedicada</strong>, si buscas un perfil con experiencia, dedicación y enfoque en resultados, te invito a consultar mi currículum.<a className="hover:text-[#777] underline" href="./documents/miguel-alberto-cv.pdf" target="_blank">Mira mi curriculum aquí.</a>
                 </p>
             </div>
         </article>

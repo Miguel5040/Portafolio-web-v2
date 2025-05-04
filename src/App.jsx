@@ -1,24 +1,15 @@
-import Navbar from "./components/Navbar"
-import Hero from "./components/Hero"
-import About from "./components/About"
-import Education from "./components/Education"
-import Projects from "./components/Projects"
-import Tech from "./components/Tech"
-import Footer from "./components/Footer"
-import Fade from "./sub-components/Fade"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Project from './pages/Project';
 
 const App = () => {
-
     return (
-        <>
-            <Navbar />
-            <Hero />
-            <Projects />
-            <Education />
-            <About />
-            <Footer />
-            <Fade />
-        </>
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/project" element={<Project />} />
+            </Routes>
+        </Router>
     )
 }
 
