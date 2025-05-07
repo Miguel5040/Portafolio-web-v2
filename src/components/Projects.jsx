@@ -9,13 +9,15 @@ const Projects = () => (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[45px]">
             <BigCard
                 link={"https://hidroequipos.vercel.app/"}
+                target={"_blank"}
                 file={"pagina-hidro.png"}
                 name={"Pagina web Hidroequipos"}
                 description={"Pagina web para la constructora y mantenimiento de albercas de Los Cabos Hidroequipos"}
                 tech={"REACT - HTML - CSS - JAVASCRIPT - MYSQL - EXPRESS"}
             />
             <BigCard
-                link={""}
+                link={"/project"}
+                target={"_self"}
                 file={"system-ilustration.png"}
                 name={"Sistema para exportacion de catalogo de productos"}
                 description={"Sistema para extraer informacion de una base de datos"}
@@ -23,6 +25,7 @@ const Projects = () => (
             />
             <BigCard
                 link={"https://github.com/Miguel5040/Proyecto-Pet-"}
+                target={"_blank"}
                 file={"petplus.png"}
                 name={"Pet+"}
                 description={"Aplicación para llevar un control total sobre tus mascotas"}
@@ -30,6 +33,7 @@ const Projects = () => (
             />
             <BigCard
                 link={"https://github.com/Miguel5040/Proyecto-JWT-Auth"}
+                target={"_blank"}
                 file={"jwt.png"}
                 name={"Modelo de registro de aplicación"}
                 description={"Modelo de aplicación Backend para realizar registros de usuarios y autenticarlos con JWT y creación de Tokens"}
