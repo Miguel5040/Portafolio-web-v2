@@ -3,7 +3,7 @@ const Presentation = () => {
 
   return (
     <>
-      <div className="hero-project relative xl:h-[65vh] h-[50vh] w-screen bg-fixed overflow-hidden bg-no-repeat bg-top bg-cover"></div>
+      <div className="hero-project relative xl:h-[65vh] h-[50vh] w-screen bg-fixed overflow-hidden bg-no-repeat bg-top bg-cover bg-[url(/images/system-hero.jpg)]"></div>
 
       <main className="max-w-3xl mx-auto p-8 py-8 font-inter text-gray-800 opacity-100">
 
