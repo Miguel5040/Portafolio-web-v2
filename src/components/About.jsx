@@ -23,7 +23,7 @@ const About = () => (
                     Profesional del desarrollo de software con <strong className="text-[#fc6563]">experiencia comprobada</strong> en la creación de soluciones digitales eficientes, automatización de procesos y mantenimiento de sistemas y plataformas web.
                 </p>
                 <p>
-                    Persona <strong className="text-[#fc6563]">trabajadora y dedicada</strong>, si buscas un perfil con experiencia, dedicación y enfoque en resultados, te invito a consultar mi currículum.<a className="hover:text-[#777] underline" href="./documents/Miguel-alberto-cv.pdf" target="_blank" rel="noopener noreferrer">Mira mi curriculum aquí.</a>
+                    Persona <strong className="text-[#fc6563]">trabajadora y dedicada</strong>, si buscas un perfil con experiencia, dedicación y enfoque en resultados, te invito a consultar mi currículum.<a className="hover:text-[#777] underline" href="./documents/miguel-alberto-cv.pdf" target="_blank" rel="noopener noreferrer">Mira mi curriculum aquí.</a>
                 </p>
             </div>
         </article>
