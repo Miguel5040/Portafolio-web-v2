@@ -40,6 +40,16 @@ const Presentation = () => {
             Cuando comencé a trabajar en la automatización, el primer gran obstáculo fue descubrir que CONTPAQi no ofrece una API oficial para acceder a sus datos. Esto complicaba el proceso, ya que no podía simplemente hacer consultas desde una aplicación externa. Después de investigar, decidí ir directamente al origen: la base de datos SQL Server. Desarrollé un script en JavaScript que se conecta a la base, extrae, ordena y filtra los datos, generando un archivo <span className="font-normal">productos.csv</span> listo para usarse.
           </p>
 
+          <div className="mb-2 rounded-md overflow-hidden shadow-xl">
+            <img
+              src="./images/script-catalogo-imagen.png"
+              alt="Script para extraccion de catalogo"
+              className="w-full h-auto block"
+            />
+          </div>
+
+          <span className="text-xs text-[#6B6B6B] py-1">Script para extraccion de catalgo</span>
+
           <p className="text-lg font-semibold italic text-gray-600">Resolver el acceso remoto y exponer el servicio</p>
 
           <p className="text-lg">
@@ -52,13 +62,13 @@ const Presentation = () => {
 
           <div className="mb-2 rounded-md overflow-hidden shadow-xl">
             <img
-              src="./images/script-catalogo-imagen.png"
-              alt="Busy city street at night with people crossing"
+              src="./images/server.png"
+              alt="Servidor Node.js con Express"
               className="w-full h-auto block"
             />
           </div>
 
-          <span className="text-xs text-[#6B6B6B] py-1">Script para extraccion de catalgo</span>
+          <span className="text-xs text-[#6B6B6B] py-1">Servidor Node.js con Express</span>
 
           <p className="text-lg font-semibold italic text-gray-600">Resultados y beneficios</p>
 

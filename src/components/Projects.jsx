@@ -24,20 +24,20 @@ const Projects = () => (
                 tech={"JAVASCRIPT - EXPRESS - SQL SERVER"}
             />
             <BigCard
+                link={""}
+                target={"_self"}
+                file={"dmc-website-frame.png"}
+                name={"Pagina web DMC (En desarrollo)"}
+                description={"Pagina web para venta de tours y actividades en Los Cabos"}
+                tech={"REACT - HTML - TAILWIND - JAVASCRIPT"}
+            />
+            <BigCard
                 link={"https://github.com/Miguel5040/Proyecto-Pet-"}
                 target={"_blank"}
                 file={"petplus.png"}
                 name={"Pet+"}
                 description={"Aplicación para llevar un control total sobre tus mascotas"}
                 tech={"REACT - PYTHON - HTML - CSS - JAVASCRIPT - FLASK - SQL ALCHEMY"}
-            />
-            <BigCard
-                link={"https://github.com/Miguel5040/Proyecto-JWT-Auth"}
-                target={"_blank"}
-                file={"jwt.png"}
-                name={"Modelo de registro de aplicación"}
-                description={"Modelo de aplicación Backend para realizar registros de usuarios y autenticarlos con JWT y creación de Tokens"}
-                tech={"PYTHON - FLASK - SQL ALCHEMY - POSTGRE_SQL - JWT"}
             />
         </div>
     </Container>
