@@ -17,11 +17,11 @@ const Introduction = () => {
                     <div>¡Le encanta el <a href="https://es.wikipedia.org/wiki/Caf%C3%A9" target="_blank" className="cursor-pointer hover:text-[#fc6563]">café</a> <img className="absolute h-[25px] top-[28.6rem] right-[36rem]" src="./images/espresso.png" /></div> <img className="h-[60px]" src="./images/cafe.png" /> <div>, salir a correr en la mañana</div> <img className="h-[50px]" src="./images/tenis.png" />,
                 </div>
                 <div className="h-[64px] flex flex-row gap-2">
-                    <div>leer algo interesante</div> <img className="h-[40px]" src="./images/libro.png" /> <div className="relative">y desarrollar páginas web! <img className="absolute h-[10px] w-[180px] right-2" src="./images/underline-red.png" /></div>
+                    <div>jugar ajedrez en linea</div> <img className="h-[50px]" src="./images/light-knight.png" /> <div className="relative">y desarrollar páginas web! <img className="absolute h-[10px] w-[180px] right-2" src="./images/underline-red.png" /></div>
                 </div>
                 <div className="h-[64px] flex justify-center items-center">
                     <div className="w-max">
-                    Mándale un saludo por <a className={classEmail} onClick={emailTrigger}>{email}</a> o <a className="underline hover:text-[#777] cursor-pointer" href="https://www.linkedin.com/in/miguel-alberto-ordonez/" target="_blank">linkedin</a>.
+                        Mándale un saludo por <a className={classEmail} onClick={emailTrigger}>{email}</a> o <a className="underline hover:text-[#777] cursor-pointer" href="https://www.linkedin.com/in/miguel-alberto-ordonez/" target="_blank">linkedin</a>.
                     </div>
                 </div>
             </div>
