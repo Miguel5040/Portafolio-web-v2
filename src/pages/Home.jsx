@@ -8,8 +8,6 @@ import Fade from "../sub-components/Fade"
 
 const Home = () => {
 
-  console.log("Home page loaded")
-
   return (
     <>
       <Navbar />
