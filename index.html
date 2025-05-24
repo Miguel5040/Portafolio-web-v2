@@ -2,12 +2,22 @@
 <html lang="es">
 
 <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8" />
-    <!-- Favicon -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Safari favicons -->
+    <!-- <link href="/code-dark.png" rel="icon" type="image/png" media="(prefers-color-scheme: light)">
+    <link href="/code.png" rel="icon" type="image/png" media="(prefers-color-scheme: dark)"> -->
+
+    <link id="favicon" rel="icon" type="image/png" href="/code-dark.svg">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <!-- Favicon SVG for modern websites -->
     <link rel="icon" type="image/svg+xml" href="./code.svg" media="(prefers-color-scheme: dark)" />
     <link rel="icon" type="image/svg+xml" href="./code-dark.svg" media="(prefers-color-scheme: light)" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- Thumbnail -->
     <meta property="og:title" content="Portafolio web profesional Miguel Alberto" />
     <meta property="og:image" content="./preview.png" />
@@ -16,18 +26,35 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="627" />
     <meta property="og:type" content="website" />
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nanum+Myeongjo&family=Noto+Sans+JP:wght@100..900&display=swap"
         rel="stylesheet">
+
+    <!-- Title -->
     <title>Miguel Alberto</title>
 </head>
 
 <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <script>
+        function setFavicon() {
+            const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const favicon = document.getElementById('favicon');
+            favicon.href = isDark ? '/code.png' : '/code-dark.png';
+        }
+
+        // Run when the page loads
+        setFavicon();
+
+        // Also react to theme changes
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setFavicon);
+    </script>
 </body>
 
 </html>
