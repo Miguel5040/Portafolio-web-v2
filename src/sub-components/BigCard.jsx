@@ -5,7 +5,7 @@ const BigCard = (props) => (
         <motion.div whileHover={{ boxShadow: '0 0 20px 4px rgba(51, 51, 51, .2)', transition: { duration: 0.3 } }} className="overflow-hidden">
             <a href={props.link} target={props.target}>
                 <motion.img
-                    whileHover={{ scale: 1.04 }}
+                    whileHover={{ scale: 1.02, transition: { duration: 0.3 } }}
                     className="object-cover aspect-[3/2]" src={`./images/${props.file}`} alt={props.alt} />
             </a>
         </motion.div>
