@@ -25,6 +25,13 @@ const Education = () => {
                     name={t("education1")}
                     date={t("dateEducation1")}
                 />
+                <Card
+                    file={"motso.jpg"}
+                    link={"https://capacitateparaelempleo.org/verifica/cb8d6c4d-4fdc-4b52-b6a3-54de56ba5323/06c252af-cee2-4478-a952-ea5eac33b1ad"}
+                    alt={"Certificado Desarollador Javascript Node.js"}
+                    name={t("education2")}
+                    date={t("dateEducation2")}
+                />
             </div>
         </Container>
     )

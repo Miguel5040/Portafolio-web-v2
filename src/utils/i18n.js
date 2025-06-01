@@ -18,8 +18,10 @@ const resources = {
       description2: "A <1>hardworking and dedicated</1> person. If you're looking for someone with experience, dedication, and a results-oriented mindset, feel free to check my resume.<3>See my resume here.</3>",
       experience1: "Software developer in a construction company",
       education1: "4Geeks Academy Bootcamp Full Stack Web Development",
+      education2: "Certified Javascript Node.js Developer",
       dateExperience1: "MAY 2024 - Present",
       dateEducation1: "SEP 2023 - FEB 2024",
+      dateEducation2: "MAY 2024",
       introduction: {
         text1: "he loves ",
         text2: "coffee",
@@ -92,8 +94,10 @@ const resources = {
       description2: "Persona <1>trabajadora y dedicada</1>, si buscas un perfil con experiencia, dedicación y enfoque en resultados, te invito a consultar mi currículum.<3>Mira mi curriculum aquí.</3>",
       experience1: "Desarrollador de software en empresa constructora",
       education1: "4Geeks Academy Bootcamp Desarrollo web Full Stack",
+      education2: "Certificado Desarrollador Javascript Node.js",
       dateExperience1: "MAY 2024 - Actualidad",
       dateEducation1: "SEP 2023 - FEB 2024",
+      dateEducation2: "MAY 2024",
       introduction: {
         text1: "¡Le encanta el ",
         text2: "café",
@@ -156,7 +160,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    // lng: "es", // language to use, more information here: https://www.i18next.com/overview/configuration-options#languages-namespaces-resources
+    // lng: "en", // language to use, more information here: https://www.i18next.com/overview/configuration-options#languages-namespaces-resources
     // you can use the i18n.changeLanguage function to change the language manually: https://www.i18next.com/overview/api#changelanguage
     // if you're using a language detector, do not define the lng option
 

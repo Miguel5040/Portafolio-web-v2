@@ -6,7 +6,7 @@ const Card = (props) => (
             <a href={props.link} target="_blank">
                 <motion.img
                     whileHover={{ scale: 1.04 }}
-                    className="object-cover aspect-[3/2]" src={`./images/${props.file}`} alt={props.alt} />
+                    className="object-cover aspect-[3/2] object-center" src={`./images/${props.file}`} alt={props.alt} />
             </a>
         </motion.div>
         <div className="flex flex-col gap-[12px] justify-between">
