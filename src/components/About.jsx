@@ -3,7 +3,10 @@ import { useTranslation } from "react-i18next"
 import { Trans } from 'react-i18next';
 
 const About = () => {
-    const { t } = useTranslation()
+    const { i18n, t } = useTranslation()
+
+    const isSpanish = i18n.language.startsWith('es');
+
     return (
 
         <Container id={"about"} className={"flex flex-col relative lg:flex-col lg:gap-8 gap-6 items-center"}>
@@ -31,7 +34,7 @@ const About = () => {
                     <p>
                         <Trans i18nKey="description2">
                             Persona <strong className="text-[#fc6563]">trabajadora y dedicada</strong>, si buscas un perfil con experiencia, dedicación y enfoque en resultados, te invito a consultar mi currículum.
-                            <a className="hover:text-[#777] underline" href="./documents/miguel-alberto-cv.pdf" target="_blank" rel="noopener noreferrer">Mira mi curriculum aquí.</a>
+                            <a className="hover:text-[#777] underline" href={isSpanish ? "/documents/miguel-alberto-cv.pdf" : "/documents/miguel-alberto-resume.pdf"} target="_blank" rel="noopener noreferrer">Mira mi curriculum aquí.</a>
                         </Trans>
                     </p>
                 </div>
