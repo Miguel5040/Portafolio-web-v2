@@ -19,7 +19,7 @@ const Introduction = () => {
         <div className="font-jakarta text-[24px] md:text-[30px] leading-[40px] lg:leading-[45px] font-normal">
             <div className="lg:flex lg:flex-col hidden items-center justify-center">
                 <div className="h-[64px] flex flex-row gap-2">
-                    <div>{t("introduction.text1")}<a href={isSpanish ? "https://es.wikipedia.org/wiki/Caf%C3%A9" : "https://en.wikipedia.org/wiki/Coffee"} target="_blank" className="cursor-pointer hover:text-[#fc6563]">{t("introduction.text2")}</a> <img className="absolute h-[25px] top-[28.6rem] right-[36rem]" src="./images/espresso.png" /></div> <img className="h-[60px]" src="./images/cafe.png" /> <div>{t("introduction.text3")}</div> <img className="h-[50px]" src="./images/tenis.png" />,
+                    <div>{t("introduction.text1")}<a href={isSpanish ? "https://es.wikipedia.org/wiki/Caf%C3%A9" : "https://en.wikipedia.org/wiki/Coffee"} target="_blank" className="cursor-pointer hover:text-[#fc6563]">{t("introduction.text2")}</a> <img className="absolute h-[25px] top-[28.6rem] right-[36rem]" src="./images/espresso.png" /></div> <img className="h-[60px]" src="./images/cafe.png" /> <div>{t("introduction.text3")}</div> <img className="h-[50px]" src="./images/tenis.webp" />,
                 </div>
                 <div className="h-[64px] flex flex-row gap-2">
                     <div>{t("introduction.text4")}</div> <img className="h-[50px]" src="./images/light-knight.png" /> <div className="relative">{t("introduction.text5")}<img className={"absolute h-[14px] " + (isSpanish ? "w-[180px] right-2" : "w-[270px] right-0")} src="./images/underline-red.png" /></div>

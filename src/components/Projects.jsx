@@ -14,7 +14,7 @@ const Projects = () => {
                 <BigCard
                     link={"https://hidroequipos.vercel.app/"}
                     target={"_blank"}
-                    file={"pagina-hidro.png"}
+                    file={"pagina-hidro.webp"}
                     name={t("projectsCards.project1.name")}
                     description={t("projectsCards.project1.description")}
                     tech={"REACT - HTML - CSS - JAVASCRIPT - MYSQL - EXPRESS"}
@@ -22,7 +22,7 @@ const Projects = () => {
                 <BigCard
                     link={"/project"}
                     target={"_self"}
-                    file={"system-ilustration.png"}
+                    file={"system-ilustration.webp"}
                     name={t("projectsCards.project2.name")}
                     description={t("projectsCards.project2.description")}
                     tech={"JAVASCRIPT - EXPRESS - SQL SERVER"}
@@ -30,7 +30,7 @@ const Projects = () => {
                 <BigCard
                     link={""}
                     target={"_self"}
-                    file={"dmc-website-frame.png"}
+                    file={"dmc-website-frame.webp"}
                     name={t("projectsCards.project3.name")}
                     description={t("projectsCards.project3.description")}
                     tech={"REACT - HTML - TAILWIND - JAVASCRIPT"}
@@ -38,7 +38,7 @@ const Projects = () => {
                 <BigCard
                     link={"https://github.com/Miguel5040/Proyecto-Pet-"}
                     target={"_blank"}
-                    file={"petplus.png"}
+                    file={"petplus.webp"}
                     name={t("projectsCards.project4.name")}
                     description={t("projectsCards.project4.description")}
                     tech={"REACT - PYTHON - HTML - CSS - JAVASCRIPT - FLASK - SQL ALCHEMY"}

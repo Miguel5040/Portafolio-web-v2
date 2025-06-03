@@ -12,7 +12,7 @@ const Education = () => {
             </div>
             <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[24px]">
                 <Card
-                    file={"hidro-blue.png"}
+                    file={"hidro-blue.webp"}
                     link={"https://www.facebook.com/hidropools"}
                     alt={"Hidroequipos Logo"}
                     name={t("experience1")}
@@ -26,7 +26,7 @@ const Education = () => {
                     date={t("dateEducation1")}
                 />
                 <Card
-                    file={"motso.jpg"}
+                    file={"motso.webp"}
                     link={"https://capacitateparaelempleo.org/verifica/cb8d6c4d-4fdc-4b52-b6a3-54de56ba5323/06c252af-cee2-4478-a952-ea5eac33b1ad"}
                     alt={"Certificado Desarollador Javascript Node.js"}
                     name={t("education2")}

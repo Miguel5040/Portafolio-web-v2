@@ -107,7 +107,7 @@ const Presentation = () => {
 
   return (
     <>
-      <div className="hero-project relative xl:h-[65vh] h-[50vh] w-screen bg-fixed overflow-hidden bg-no-repeat bg-top bg-cover bg-[url(/images/system-hero.jpg)]"></div>
+      <div className="hero-project relative xl:h-[65vh] h-[50vh] w-screen bg-fixed overflow-hidden bg-no-repeat bg-top bg-cover bg-[url(/images/system-hero.webp)]"></div>
 
       <main className="max-w-3xl mx-auto p-8 py-8 font-inter text-gray-800 opacity-100 text-pretty">
 
@@ -119,7 +119,7 @@ const Presentation = () => {
 
         <div>
           <img
-            src="./images/diagrama-background-less.png"
+            src="./images/diagrama-background-less.webp"
             alt="Busy city street at night with people crossing"
             className="w-full h-auto block"
           />
@@ -145,7 +145,7 @@ const Presentation = () => {
 
           <div className="mb-2 rounded-md overflow-hidden shadow-xl">
             <img
-              src="./images/script-catalogo-imagen.png"
+              src="./images/script-catalogo-imagen.webp"
               alt="Script para extraccion de catalogo"
               className="w-full h-auto block"
             />
@@ -161,7 +161,7 @@ const Presentation = () => {
 
           <div className="mb-2 rounded-md overflow-hidden shadow-xl">
             <img
-              src="./images/server.png"
+              src="./images/server.webp"
               alt="Servidor Node.js con Express"
               className="w-full h-auto block"
             />
