@@ -21,13 +21,13 @@ const Title = () => {
                         (isSpanish ? "right-[29.23rem]" : "right-[21.85rem]")
                     }
                     src="./images/face.png"
-                    alt=""
+                    alt="face red drawing"
                 />
             </div>
 
             <div className="text-nowrap relative">
                 {t("title3")}
-                <img className={"absolute h-[14px] w-[6px] right-[14rem] top-[0.7rem] rotate-[30deg] " + (isSpanish ? "" : "hidden")} src="./images/tilde.png" />
+                <img className={"absolute h-[14px] w-[6px] right-[14rem] top-[0.7rem] rotate-[30deg] " + (isSpanish ? "" : "hidden")} src="./images/tilde.png" alt="tilde drawing" />
             </div>
         </div >
     )

@@ -19,10 +19,10 @@ const Introduction = () => {
         <div className="font-jakarta text-[24px] md:text-[30px] leading-[40px] lg:leading-[45px] font-normal">
             <div className="lg:flex lg:flex-col hidden items-center justify-center">
                 <div className="h-[64px] flex flex-row gap-2">
-                    <div>{t("introduction.text1")}<a href={isSpanish ? "https://es.wikipedia.org/wiki/Caf%C3%A9" : "https://en.wikipedia.org/wiki/Coffee"} target="_blank" className="cursor-pointer hover:text-[#fc6563]">{t("introduction.text2")}</a> <img className="absolute h-[25px] top-[28.6rem] right-[36rem]" src="./images/espresso.png" /></div> <img className="h-[60px]" src="./images/cafe.png" /> <div>{t("introduction.text3")}</div> <img className="h-[50px]" src="./images/tenis.webp" />,
+                    <div>{t("introduction.text1")}<a href={isSpanish ? "https://es.wikipedia.org/wiki/Caf%C3%A9" : "https://en.wikipedia.org/wiki/Coffee"} target="_blank" className="cursor-pointer hover:text-[#fc6563]">{t("introduction.text2")}</a> <img className="absolute h-[25px] top-[28.6rem] right-[36rem]" src="./images/espresso.png" alt="espresso word drawing" /></div> <img className="h-[60px]" src="./images/cafe.png" alt="cup of coffee drawing" /> <div>{t("introduction.text3")}</div> <img className="h-[50px]" src="./images/tenis.webp" alt="tenis drawing" />,
                 </div>
                 <div className="h-[64px] flex flex-row gap-2">
-                    <div>{t("introduction.text4")}</div> <img className="h-[50px]" src="./images/light-knight.png" /> <div className="relative">{t("introduction.text5")}<img className={"absolute h-[14px] " + (isSpanish ? "w-[180px] right-2" : "w-[270px] right-0")} src="./images/underline-red.png" /></div>
+                    <div>{t("introduction.text4")}</div> <img className="h-[50px]" src="./images/light-knight.png" alt="light knight drawing" /> <div className="relative">{t("introduction.text5")}<img className={"absolute h-[14px] " + (isSpanish ? "w-[180px] right-2" : "w-[270px] right-0")} src="./images/underline-red.png" alt="underline red drawing" /></div>
                 </div>
                 <div className="min-h-[64px] flex justify-center items-center">
                     <div className="w-full text-center">
@@ -31,7 +31,7 @@ const Introduction = () => {
                 </div>
             </div>
             <div className="block lg:hidden md:leading-[50px]">
-                {t("introduction.responsiveText1")}<a href="https://es.wikipedia.org/wiki/Caf%C3%A9" target="_blank" className="cursor-pointer hover:text-[#fc6563]">{t("introduction.responsiveText2")}</a><img className="h-[40px] md:h-[50px] inline mx-2" src="./images/cafe.png" />{t("introduction.responsiveText3")}<img className="h-[35px] md:h-[45px] inline mx-2" src="./images/tenis.webp" />{t("introduction.responsiveText4")}<img className="h-[30px] md:h-[40px] inline mx-2" src="./images/light-knight.png" />{t("introduction.responsiveText5")}<div className="inline xs:text-nowrap"><a className={classEmail} onClick={emailTrigger}>{email}</a></div>{t("introduction.responsiveText6")}<a className="underline hover:text-[#777] cursor-pointer" href="https://www.linkedin.com/in/miguel-alberto-ordonez/" target="_blank">linkedin</a>.
+                {t("introduction.responsiveText1")}<a href="https://es.wikipedia.org/wiki/Caf%C3%A9" target="_blank" className="cursor-pointer hover:text-[#fc6563]">{t("introduction.responsiveText2")}</a><img className="h-[40px] md:h-[50px] inline mx-2" src="./images/cafe.png" alt="cup of coffee drawing" />{t("introduction.responsiveText3")}<img className="h-[35px] md:h-[45px] inline mx-2" src="./images/tenis.webp" alt="tenis drawing" />{t("introduction.responsiveText4")}<img className="h-[30px] md:h-[40px] inline mx-2" src="./images/light-knight.png" alt="light knight drawing" />{t("introduction.responsiveText5")}<div className="inline xs:text-nowrap"><a className={classEmail} onClick={emailTrigger}>{email}</a></div>{t("introduction.responsiveText6")}<a className="underline hover:text-[#777] cursor-pointer" href="https://www.linkedin.com/in/miguel-alberto-ordonez/" target="_blank">linkedin</a>.
             </div>
 
         </div >

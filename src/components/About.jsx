@@ -14,13 +14,13 @@ const About = () => {
                 <div className="relative max-w-[250px]">
                     <img className="aspect-square object-cover" src="./images/imagen-perfil-linkedin-square.png" alt="imagen de perfil" />
                     <div className="absolute bg-[#aeaeae] blur-[2px] w-full h-full right-[-10px] top-[-10px] sm:right-[-15px] sm:top-[-15px] z-[-1]"></div>
-                    <img className="rounded-full w-[30px] xs:w-[50px] md:w-[70px] absolute right-[-10px] top-[-10px] sm:right-[-15px] sm:top-[-15px]" src="./images/sticker.png" />
+                    <img className="rounded-full w-[30px] xs:w-[50px] md:w-[70px] absolute right-[-10px] top-[-10px] sm:right-[-15px] sm:top-[-15px]" src="./images/sticker.png" alt="sticker open to work" />
                 </div>
                 <div className="relative text-[18px] xs:text-[25px] md:text-[32px] mb-6 font-canela-deck">
                     <p className="text-nowrap text-[22px] xs:text-[30px] md:text-[42px]">Miguel Alberto</p>
                     <p className="text-balance">{t("aboutRole")}</p>
 
-                    <img className="hidden lg:block absolute top-[102px] right-[-112px] rotate-[220deg] w-[100px]" src="./images/arrow.png" />
+                    <img className="hidden lg:block absolute top-[102px] right-[-112px] rotate-[220deg] w-[100px]" src="./images/arrow.png" alt="arrow red drawing" />
                 </div>
             </div>
 
