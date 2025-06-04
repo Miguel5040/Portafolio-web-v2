@@ -15,14 +15,14 @@ const Title = () => {
 
             <div className="text-nowrap relative leading-none inline-flex items-center justify-center">
                 {t("title2")}
-                <img
+                {/* <img
                     className={
                         "absolute h-[18px] top-1/2 -translate-y-[20%] " +
                         (isSpanish ? "right-[29.23rem]" : "right-[21.85rem]")
                     }
                     src="./images/face.png"
                     alt="face red drawing"
-                />
+                /> */}
             </div>
 
             <div className="text-nowrap relative">
